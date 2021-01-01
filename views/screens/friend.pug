@@ -1,0 +1,9 @@
+extends ../layouts/main.pug
+
+block content 
+    each data in friendList
+        h3 friend name: #{data.name}
+        h3 school: #{data.school}
+        h3 age: #{data.age}
+        h3 grade: #{data.grade} 
+        hr
